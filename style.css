@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Secular+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.container nav h1 {
+  color: #1D1D1D;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Secular One', sans-serif;
+  letter-spacing: -0.293px;
+  cursor: pointer;
+}
+
+.container nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container nav ul li {
+  padding: 10px 20px;
+}
+
+.container nav ul .header_loging {
+  padding: 10px 27px;
+}
+
+.container nav ul .header_loging a {
+  color: #094BCA;
+  text-align: center;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.container nav ul .header_gat_started_btn {
+  padding: 10px 27px;
+  border-radius: 5px;
+  background: #1361F5;
+}
+
+.container nav ul .header_gat_started_btn a {
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.container nav ul li a {
+  color: #1D1D1D;
+  font-size: 16px;
+  font-family: 'Inter' sans-serif;
+  font-weight: 500;
+  line-height: 26px;
+  cursor: pointer;
+}
+
+/* hero section */
+.hero_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 55px;
+}
+
+.hero_section .hero_text h2 {
+  color: #1D1D1D;
+  font-size: 48px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1px;
+}
+
+.hero_section .hero_text p {
+  color: #223140;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  line-height: 32px;
+  letter-spacing: -1px;
+  margin: 35px 0 45px 0;
+}
+
+.hero_section .hero_text .header_gat_started_btn,
+#workflow .inner_workflow .functionality .functionality_text .header_gat_started_btn,
+#software_integrations .soft_intergration_text .header_gat_started_btn,
+#experience_section .inner_experience .header_gat_started_btn {
+  padding: 10px 27px;
+  border-radius: 5px;
+  background: #1361F5;
+  color: #FFF;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+.hero_section .hero_text .heder_demo {
+  border-radius: 5px;
+  border: 1px solid #E0E0E0;
+  padding: 10px 27px;
+  margin-left: 10px;
+}
+
+.inner_benefits {
+  display: flex;
+  gap: 20px;
+  margin: 86px 0 90px 0;
+}
+
+.inner_benefits .component {
+  width: 250px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+.inner_benefits h3 {
+  color: #223140;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 15px 0 0 15px;
+}
+
+.inner_benefits p {
+  color: #535558;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 15px 0 0 15px;
+  font-family: 'Inter', sans-serif;
+}
+
+.inner_benefits .icon {
+  padding: 14px 0 21px 15px;
+}
+
+
+/* Work flow section */
+#workflow .inner_workflow .workflow_text h2 {
+  color: #1D1D1D;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1px;
+}
+
+#workflow .inner_workflow .workflow_text p {
+  color: #223140;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  line-height: 32px;
+  letter-spacing: -1px;
+  margin: 35px 0 90px 0;
+}
+
+#workflow .inner_workflow .functionality {
+  display: flex;
+  justify-content: space-around;
+  gap: 100px;
+  margin-bottom: 60px;
+}
+
+#workflow .inner_workflow .functionality .functionality_text {
+  width: 50%;
+}
+
+#workflow .inner_workflow .functionality .functionality_text h4 {
+  color: #094BCA;
+  font-size: 24px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1px;
+}
+
+#workflow .inner_workflow .functionality .functionality_text h3 {
+  color: #1D1D1D;
+  font-size: 32px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1px;
+  margin: 15px 0 35px 0;
+}
+
+#workflow .inner_workflow .functionality .functionality_text p {
+  color: #223140;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  line-height: 32px;
+  letter-spacing: -1px;
+  margin: 0 0 35px 0;
+}
+
+#workflow .inner_workflow .functionality .functionality_image {
+  width: 50%;
+}
+
+/* Seamless Software Integrations */
+
+#software_integrations .inner_soft_intergration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#software_integrations .soft_intergration_text h3 {
+  color: #000;
+  font-size: 32px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1px;
+}
+
+#software_integrations .soft_intergration_text p {
+  color: #223140;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  line-height: 32px;
+  letter-spacing: -1px;
+  margin: 35px 0 60px 0;
+}
+
+
+#awards_section .inner_awards {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  margin: 100px 0;
+}
+
+
+#awards_section .award_group h3 {
+  color: #094BCA;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1px;
+}
+
+#awards_section .award_group p {
+  color: #223140;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  line-height: 32px;
+  letter-spacing: -1px;
+}
+
+/* Experience the Future of Work Today */
+#satisfied_customers .customers_text h2 {
+  color: #1D1D1D;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1px;
+  margin-top: 60px;
+}
+
+#satisfied_customers .customers_text p {
+  color: #223140;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  line-height: 32px;
+  letter-spacing: -1px;
+  margin: 35px 0 90px 0;
+}
+
+#satisfied_customers .customers_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+#satisfied_customers .customers_flex .customer_1 {
+  width: 378px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+  padding: 70px 30px 49px 30px ;
+  position: relative;
+}
+#satisfied_customers .customers_flex .customer_1 img {
+  position: absolute;
+  left: 139px;
+  top: -43px;
+}
+#satisfied_customers .customers_flex .customer_1 p {
+  color: #535558;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 14px 0 24px 0;
+}
+#satisfied_customers .customers_flex .customer_1 h4 {
+  color: #D9D9D9;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: -0.293px;
+  margin: 24px 0;
+}
+#satisfied_customers .customers_flex .customer_1 .h4 {
+  margin: 35px 0;
+}
+#satisfied_customers .customers_flex .customer_1 h3 {
+  color: #223140;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Experience the Future of Work Today */
+
+#experience_section {
+  background: rgba(217, 217, 217, 0.10);
+  padding: 60px 0;
+}
+
+#experience_section .inner_experience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#experience_section .inner_experience h2 {
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1px;
+}
+
+#experience_section .inner_experience p {
+  color: #223140;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  line-height: 32px;
+  letter-spacing: -1px;
+  margin: 35px 0 60px 0;
+}
+
+
+/* free_resources section*/
+
+#free_resources .inerr_free_resources {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+#free_resources .inerr_free_resources h2 {
+  color: #1D1D1D;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1px;
+  margin: 90px 0;
+}
+
+#free_resources .inerr_free_resources .resources_block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20PX;
+}
+
+#free_resources .inerr_free_resources .resources_block .inner_resources_block {
+  width: 378px;
+  box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+#free_resources .inerr_free_resources .resources_block .inner_resources_block img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#free_resources .inerr_free_resources .resources_text {
+  padding: 10px 20px;
+}
+
+#free_resources .inerr_free_resources .resources_text a {
+  border-radius: 2px;
+  background: rgba(19, 97, 245, 0.10);
+  padding: 3px 8px;
+  color: #004CE6;
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+#free_resources .inerr_free_resources .resources_text h4 {
+  color: #223140;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  line-height: 25px;
+  margin: 10px 0;
+}
+
+#free_resources .inerr_free_resources .resources_text a.btn,
+#fotter_section .inner_footer_section .about .block_datel a {
+  color: #094BCA;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 10px 0;
+  background: #fff;
+}
+
+/* Footer Section */
+#fotter_section .inner_footer_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+#fotter_section .inner_footer_section .techVantage {
+  width: 20%;
+}
+
+#fotter_section .inner_footer_section .techVantage h4 {
+  color: #1D1D1D;
+  font-size: 24px;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -0.293px;
+  margin-bottom: 30px;
+}
+
+#fotter_section .inner_footer_section .techVantage p {
+  color: #535558;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  line-height: 26px;
+}
+
+#fotter_section .inner_footer_section .about h4 {
+  color: #1D1D1D;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+#fotter_section .inner_footer_section .about li a {
+  color: #535558;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+#fotter_section .inner_footer_section .about .block_datel {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+#fotter_section .inner_footer_section .about .block_datel {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+  gap: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+#fotter_section .inner_footer_section .about .block_datel img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+}
+
+#fotter_section .inner_footer_section .about .block_datel p {
+  color: #535558;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  line-height: 22px;
+}
